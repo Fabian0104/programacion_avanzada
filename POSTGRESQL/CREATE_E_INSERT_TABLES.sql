@@ -1,4 +1,4 @@
---Create, insert y select de tabla cat_generos
+q2--Create, insert y select de tabla cat_generos
 CREATE TABLE IF NOT EXISTS cat_generos 
 (
 	idu_genero serial,
@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS cat_clasificaciones(
 	idu_clasificacion serial,
 	nom_clasificacion varchar(50) DEFAULT '',
 	des_clasificacion varchar(255) DEFAULT '',
-	idu_tipo int DEFAULT '0',
+	idu_tipo integer DEFAULT '0',
 	PRIMARY KEY (idu_clasificacion)
 );
 
